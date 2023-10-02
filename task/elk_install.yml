@@ -1,0 +1,8 @@
+---
+
+- name: Install ELK Cluster
+  hosts: Ubuntu
+  become: yes
+
+  roles:
+    - elk_stack

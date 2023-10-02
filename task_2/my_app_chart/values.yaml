@@ -1,0 +1,12 @@
+image:
+  repository: tigran222/k8task
+  tag: 1.0.1
+
+ingress:
+  enabled: true
+  host: localhost
+
+volume:
+  enabled: true
+  hostPath: /opt/k8task
+
