@@ -1,0 +1,8 @@
+---
+
+- name: Change DNS
+  hosts: Ubuntu
+  become: yes
+
+  roles:
+    - change_dns

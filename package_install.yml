@@ -1,0 +1,8 @@
+---
+
+- name: Install Packages Role
+  hosts: Ubuntu
+  become: yes
+
+  roles:
+    - packages
