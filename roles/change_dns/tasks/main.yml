@@ -1,9 +1,0 @@
----
-# tasks file for change_dns
-- name: Set DNS servers
-  copy:
-    content: "nameserver 8.8.8.8\nnameserver 1.1.1.1"
-    dest: /etc/resolv.conf
-  become: yes
-
-  
